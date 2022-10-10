@@ -431,7 +431,7 @@ text-align: center;}
 }
 
 footer {
-    background-color: #1C39BB;
+    background: linear-gradient(rgba(41, 45, 255, 0.85), rgba(41, 98, 255, 0.85)), url(../img/anabanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
