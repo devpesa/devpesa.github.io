@@ -431,7 +431,7 @@ text-align: center;}
 }
 
 footer {
-    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
+    background-color: #1C39BB;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
