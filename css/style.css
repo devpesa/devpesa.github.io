@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
 
+
 :root {
     --brand: #1C39BB;
     --dark: #092032;
@@ -489,4 +490,13 @@ input.form-control {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--brand);
+}
+
+.service{
+    transition: all 0.2s;
+    border-radius: 30px;
+}
+
+.service:hover{
+    box-shadow: 0 0 20px #ccc;
 }
