@@ -183,8 +183,8 @@ section {
 }
 
 .btn-brand {
-    border-color: var(--brand);
-    background-color: var(--brand);
+    border-color: #092032;
+    background-color: #092032;
     color: #fff;
 }
 
