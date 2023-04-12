@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cult Develop</title>
+    <!-- Tilwindcss CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-800">
+
+
+    <nav class="fixed bg-gray-900 w-screen">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <img class="h-18 w-20" src="src/images/cult-logo.png"
+                            alt="Workflow">
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a id="anasayfa" href="#"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Ana
+                                Sayfa</a>
+                            <a href="#team"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 ">Ekip</a>
+                            <a href="#projects"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projeler</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button"
+                        class="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a id="anasayfa" href="#"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Ana
+                    Sayfa</a>
+                <a href="#team"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Ekip</a>
+                <a href="#projects"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projeler</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-gray-800">
+        <div class="container mx-auto px-4 py-6 md:py-12 md:flex md:items-center md:justify-between">
+            <div class="md:w-1/2">
+                <h1 class="text-white text-4xl md:text-6xl font-bold mb-2">Cult Develop</h1>
+                <p class="text-gray-400 mb-4 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="https://discord.gg/yewNDyJth3" target="_blank"><button 
+                    class="bg-blue-800 text-gray-300 font-semibold py-2 px-4 rounded-lg md:text-lg hover:bg-blue-700">Discord</button></a>
+            </div>
+            <div class="md:w-2/5">
+                <img src="src/images/hero.png" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+
+
+    <section id="team" class="bg-gray-900 text-gray-400 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-100">EKİP</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Cult Develop, Ekibi.</p>
+            </div>
+            <div class="flex flex-wrap -m-2">
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/80x80">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">Volkan Altay</h2>
+                            <p class="text-gray-500">CEO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/82x82">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">Mert</h2>
+                            <p class="text-gray-500">Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/84x84">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">MetuMortis</h2>
+                            <p class="text-gray-500">Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/86x86">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">pesa</h2>
+                            <p class="text-gray-500">Web Developer - Graphic Designer</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/88x88">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">Luwe</h2>
+                            <p class="text-gray-500">Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                        <img alt="team"
+                            class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                            src="https://dummyimage.com/90x90">
+                        <div class="flex-grow">
+                            <h2 class="text-gray-200 title-font font-medium">Demir</h2>
+                            <p class="text-gray-500">Web Developer - Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="projects" class="flex flex-wrap justify-center items-center mt-28 mb-8">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-4 my-8">
+            <img class="w-full" src="https://dummyimage.com/400x200" alt="Project image">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-gray-200">Proje 1</div>
+                <p class="text-gray-400 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu risus eget massa lacinia fringilla
+                    eu ac elit. Donec non pulvinar nisl, ac auctor tortor.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-4 my-8">
+            <img class="w-full" src="https://dummyimage.com/400x200" alt="Project image">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-gray-200">Proje 2</div>
+                <p class="text-gray-400 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu risus eget massa lacinia fringilla
+                    eu ac elit. Donec non pulvinar nisl, ac auctor tortor.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-4 my-8">
+            <img class="w-full" src="https://dummyimage.com/400x200" alt="Project image">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 text-gray-200">Proje 3</div>
+                <p class="text-gray-400 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu risus eget massa lacinia fringilla
+                    eu ac elit. Donec non pulvinar nisl, ac auctor tortor.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('a[href="#team"]').click(function () {
+            $('html, body').animate({ scrollTop: $('#team').offset().top }, 'slow');
+            return false;
+        });
+
+        $('a[href="#projects"]').click(function () {
+            $('html, body').animate({ scrollTop: $('#projects').offset().top }, 'slow');
+            return false;
+        });
+
+
+        $(document).ready(function () {
+            // Anasayfa linkine tıklanınca yavaşça sayfanın en üstüne çık
+            $("#anasayfa").click(function () {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
