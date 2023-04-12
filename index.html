@@ -17,48 +17,37 @@
     <!-- Bootstrap İcons CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
         rel="stylesheet">
-
     <style>
         * {
             font-family: 'Poppins', sans-serif;
         }
-
         @keyframes float {
             0% {
                 transform: translateY(-0);
             }
-
             50% {
                 transform: translateY(-10px);
             }
-
             100% {
                 transform: translateY(-0);
             }
         }
-
         .animate-float {
             animation: float 2s ease-out infinite;
         }
-
         @media screen and (max-width: 767px) {
             #lol {
                 margin-top: 80px;
             }
         }
-
         @media screen and (max-width: 767px) {
             #logo {
                 display: none;
             }
         }
     </style>
-
 </head>
-
 <body class="bg-gray-800">
-
-
     <nav class="fixed bg-gray-900 w-screen z-50">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
@@ -81,7 +70,6 @@
             </div>
         </div>
     </nav>
-
     <div class="bg-gray-800">
         <div class="container mx-auto px-4 py-6 md:py-12 md:flex md:items-center md:justify-between">
             <div class="md:w-1/2">
@@ -96,11 +84,8 @@
             <div class="w-2/4">
                 <img src="src/images/hero.png" alt="Your Image" class="animate-float" id="logo">
             </div>
-
         </div>
     </div>
-
-
     <section id="team" class="bg-gray-900 text-gray-400 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-24">
@@ -108,7 +93,6 @@
                 <p class="lg:w-3/4 mx-auto leading-relaxed text-base">- Cult Develop Ekibi -</p>
             </div>
             <div class="flex flex-wrap -m-2">
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -120,7 +104,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -132,7 +115,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -144,7 +126,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -156,7 +137,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -168,7 +148,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -180,7 +159,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -192,7 +170,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -201,11 +178,9 @@
                         <div class="flex-grow">
                             <h2 class="text-gray-200 title-font font-medium">pesa</h2>
                             <p class="text-gray-500">Web Developer - Graphic Designer</p>
-
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -217,7 +192,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                         <img alt="team"
@@ -232,8 +206,6 @@
             </div>
         </div>
     </section>
-
-
     <div id="projects" class="flex flex-wrap justify-center items-center mt-28 mb-8">
         <div class="max-w-sm rounded overflow-hidden shadow-lg mx-4 my-8">
             <img class="w-full" src="https://dummyimage.com/400x200" alt="Project image">
@@ -266,20 +238,16 @@
             </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $('a[href="#team"]').click(function () {
             $('html, body').animate({ scrollTop: $('#team').offset().top }, 'slow');
             return false;
         });
-
         $('a[href="#projects"]').click(function () {
             $('html, body').animate({ scrollTop: $('#projects').offset().top }, 'slow');
             return false;
         });
-
-
         $(document).ready(function () {
             $("#anasayfa").click(function () {
                 $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -287,7 +255,6 @@
             });
         });
     </script>
-
     <script>
         function toggleMenu() {
             var menu = document.getElementById("menu");
@@ -301,13 +268,11 @@
         var toggleButton = document.getElementById("toggle-menu");
         toggleButton.addEventListener("click", toggleMenu);
     </script>
-
     <script type="text/javascript">
         document.oncontextmenu = function () {
             return false;
         }
     </script>
-
     <script type="text/javascript">
         document.onkeydown = function (e) {
             if (event.keyCode == 123) {
@@ -324,7 +289,5 @@
             }
         }
     </script>
-
 </body>
-
 </html>
