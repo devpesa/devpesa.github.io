@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Pesa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        @keyframes float {
+            0% {
+                transform: translateY(-0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(-0);
+            }
+        }
+
+        @media screen and (max-width: 488px) {
+            #pesa-logo {
+                display: none;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body class="bg-gray-800">
+    <nav class="bg-gray-800 w-full z-50">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <img id="pesa-logo" class="w-32" src="src/images/pesa-logo.png" alt="Pesa-Logo">
+                    </div>
+                    <div class="md:flex md:items-center">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="index.html"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Ana
+                                Sayfa</a>
+                            <a href="skills.html"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Yetenekler</a>
+                            <a href="projects.html"
+                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projeler</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-36 text-center">
+        <div class="mb-1 text-base font-medium dark:text-white">HTML (100%)</div>
+        <div class="w-3/4 mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-gray-600 h-2.5 rounded-full  dark:bg-gray-300" style="width: 100%"></div>
+        </div>
+        <div class="mb-1 text-base font-medium text-blue-700 dark:text-blue-500">CSS (100%)</div>
+        <div class="w-3/4 mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 100%"></div>
+        </div>
+        <div class="mb-1 text-base font-medium text-red-700 dark:text-red-500">Photoshop (100%)</div>
+        <div class="w-3/4 mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-red-600 h-2.5 rounded-full dark:bg-red-500" style="width: 100%"></div>
+        </div>
+        <div class="mb-1 text-base font-medium text-green-700 dark:text-green-500">Tailwindcss (35%)</div>
+        <div class="w-3/4 mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div class="bg-green-600 h-2.5 rounded-full dark:bg-green-500" style="width: 35%"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
