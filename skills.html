@@ -43,6 +43,10 @@
 
 </head>
 
+<div id="loading" class="fixed top-0 left-0 w-full h-1 bg-gray-900">
+    <div class="h-full bg-blue-500" style="width: 92%;"></div>
+</div>
+
 <body class="bg-gray-900">
     <nav class="bg-gray-800 w-full z-50">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -87,7 +91,12 @@
         </div>
     </div>
 
-
+    <script>
+        window.onload = function() {
+          var loading = document.getElementById('loading');
+          loading.style.display = 'none';
+        }
+      </script>
 </body>
 
 </html>
