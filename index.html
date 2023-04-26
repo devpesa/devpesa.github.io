@@ -38,7 +38,13 @@
 
         @media screen and (max-width: 767px) {
             #lol {
-                margin-top: 80px;
+                margin-top: 250px;
+            }
+        }
+
+        @media screen and (max-width: 488px) {
+            #pesa-logo {
+                display: none;
             }
         }
 
@@ -47,20 +53,36 @@
                 display: none;
             }
         }
+
+        /* Scrollbar styles */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #151422;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(0, 129, 255);
+            background: linear-gradient(45deg, rgba(0, 129, 255, 1) 0%, rgba(16, 0, 255, 1) 100%);
+            border-radius: 5px;
+        }
     </style>
 
 
 </head>
 
 <body class="bg-gray-900">
+
     <nav class="fixed bg-gray-800 w-full z-50">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img class="w-32" src="src/images/pesa-logo.png" alt="Pesa-Logo">
+                        <img id="pesa-logo" class="w-32" src="src/images/pesa-logo.png" alt="Pesa-Logo">
                     </div>
-                    <div class="hidden md:flex md:items-center">
+                    <div class="    md:flex md:items-center">
                         <div class="ml-10 flex items-baseline space-x-4">
                             <a href="#"
                                 class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Ana
@@ -93,6 +115,8 @@
         </div>
     </div>
 
+
+   
 
 </body>
 
