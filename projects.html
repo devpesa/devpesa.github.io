@@ -38,6 +38,11 @@
                 display: none;
             }
         }
+        @media screen and (max-width: 505px) {
+            #project-margin {
+                margin-bottom: 65px;
+            }
+        }
 
         #Project1:hover {
             transform: scale(1.1);
@@ -76,8 +81,7 @@
             </div>
         </div>
     </nav>
-    <div class="bg-gray-900">
-
+    <div>
 
         <div class="absolute grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-44 mr-20 ml-20">
             <div class="relative bg-gray-800 rounded-lg overflow-hidden shadow-md">
@@ -99,7 +103,7 @@
                     <a href="#" class="block mt-4 text-blue-500 font-semibold">Projeyi Görüntüle</a>
                 </div>
             </div>
-            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
+            <div id="project-margin" class="bg-gray-800 rounded-lg overflow-hidden shadow-md">
                 <img class="w-full h-48 object-cover" src="https://via.placeholder.com/640x360" alt="Project Image">
                 <div class="p-6">
                     <h3 class="font-bold text-lg mb-2 text-gray-300">Proje 3</h3>
