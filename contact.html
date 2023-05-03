@@ -44,8 +44,8 @@
 
             }
         }
-        
-                @media screen and (max-width: 376px) {
+
+        @media screen and (max-width: 376px) {
             #dc-status {
                 margin: 10px;
 
@@ -68,6 +68,24 @@
             #nav-links {
                 margin: 0;
             }
+        }
+
+        .link-underline {
+            border-bottom-width: 0;
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+            background-size: 0 3px;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size .2s ease-in-out;
+        }
+
+        .link-underline-black {
+            background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(34, 74, 255), rgb(67, 34, 255))
+        }
+
+        .link-underline:hover {
+            background-size: 100% 3px;
+            background-position: 0 100%
         }
     </style>
 
@@ -94,13 +112,14 @@
                     <div class="md:flex md:items-center">
                         <div class="flex items-baseline space-x-4">
                             <a id="nav-links" href="index.html"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Anasayfa</a>
+                                class="link link-underline link-underline-black px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white  focus:text-white focus:bg-gray-700">Anasayfa</a
+                            </a>
                             <a id="nav-links" href="skills.html"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Yetenekler</a>
+                                class="link link-underline link-underline-black px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white  focus:text-white focus:bg-gray-700">Yetenekler</a>
                             <a id="nav-links" href="projects.html"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projeler</a>
+                                class="link link-underline link-underline-black px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white  focus:text-white focus:bg-gray-700">Projeler</a>
                             <a id="nav-links" href="contact.html"
-                                class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">İletişim</a>
+                                class="link link-underline link-underline-black px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white  focus:text-white focus:bg-gray-700">İletişim</a>
                         </div>
                     </div>
                 </div>
@@ -108,10 +127,11 @@
         </div>
     </nav>
 
-  
-    <div class="flex items-center justify-center h-screen">
+
+    <div id="dc-status" class="flex items-center justify-center h-screen">
         <a href="https://discord.com/users/1040280196705681428">
-            <img id="dc-status" src="https://lanyard.cnrad.dev/api/1040280196705681428" class="animate-float" alt="Discord Presence"></a>
+            <img src="https://lanyard.cnrad.dev/api/1040280196705681428" class="animate-float"
+                alt="Discord Presence"></a>
     </div>
 
 
